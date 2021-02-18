@@ -61,7 +61,7 @@ export const cocktails = [
         category: 'strong',
         price: 11,
         ingredients: 'Gin, dry vermouth. Garnish: olives or lemon twist',
-    }
+    },
     {
         id: 8,
         name: 'Greyhound',
