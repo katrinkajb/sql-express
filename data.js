@@ -1,8 +1,8 @@
-export const cocktails = [
+const cocktails = [
     {
         id: 1,
         name: 'Old Fashioned',
-        // image: 'oldFashioned.jpg',
+        // image: 'https://tse1.mm.bing.net/th?id=OIP.OWkuw4Ogk5AIZPYBhVqkZgHaIq&pid=Api',
         description: 'A strong bourbon drink',
         category: 'strong',
         price: 8,
@@ -11,7 +11,7 @@ export const cocktails = [
     {
         id: 2,
         name: 'White Russian',
-        // image: 'whiteRussian.jpg',
+        // image: 'http://s3.amazonaws.com/betchesLive/s3file/s3fs-public/article/list/images/white-russian.jpg',
         description: 'A creamy vodka drink',
         category: 'creamy',
         price: 9,
@@ -20,7 +20,7 @@ export const cocktails = [
     {
         id: 3,
         name: 'French 75',
-        // image: 'french75.jpeg',
+        // image: 'http://static.independent.co.uk/s3fs-public/thumbnails/image/2014/10/06/10/French%2075.jpg',
         description: 'A gin and champagne drink',
         category: 'bubbles',
         price: 11,
@@ -29,7 +29,7 @@ export const cocktails = [
     {
         id: 4,
         name: 'Mojito',
-        // image: 'mojito.jpg',
+        // image: 'https://cdn.diffords.com/contrib/stock-images/2016/1/01/20163e856fbeb76b298eb064a15897d2b5d6.jpg',
         description: 'A refreshing rum drink',
         category: 'refreshing',
         price: 10,
@@ -38,7 +38,7 @@ export const cocktails = [
     {
         id: 5,
         name: 'Cadillac Margarita',
-        // image: 'margarita.png',
+        // image: 'https://www.barnonedrinks.com/drinks/images/14554.jpg',
         description: 'A strong tequila drink',
         category: 'strong',
         price: 9,
@@ -47,7 +47,7 @@ export const cocktails = [
     {
         id: 6,
         name: 'Gimlet',
-        // image: 'gimlet.png',
+        // image: 'https://www.top50cocktailbars.com/wp-content/uploads/2018/05/gimlet.png',
         description: 'A refreshing gin and lime drink',
         category: 'refreshing',
         price: 8,
@@ -56,19 +56,23 @@ export const cocktails = [
     {
         id: 7,
         name: 'Martini',
-        // image: 'martini.png',
+        // image: 'https://media.finlandia.com/wp-content/uploads/sites/3/2018/07/09095535/FV_Classic_Martini_W_450x600.jpg',
         description: 'A strong gin drink',
         category: 'strong',
         price: 11,
         ingredients: 'Gin, dry vermouth. Garnish: olives or lemon twist',
-    }
+    },
     {
         id: 8,
         name: 'Greyhound',
-        // image: 'greyhound.png',
+        // image: 'http://www.cliquevodka.com/wp-content/uploads/2014/05/Clique-Vodka-greyhound.jpg',
         description: 'A refreshing vodka drink',
         category: 'refreshing',
         price: 7,
         ingredients: 'Vodka, grapefruit juice. Garnish: grapefruit wedge',
     }
 ];
+
+module.exports = {
+    cocktails
+};
